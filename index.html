@@ -15,167 +15,120 @@
 
 <!-- google tracking end -->
     <meta charset="utf8">
-    <title>Find new customers!</title>
+    <title>Improve Healthcare</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
+     <link rel="stylesheet" href="https://s3.amazonaws.com/novadge_bucket/css/bootstrap.css">
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
     <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css">    
-    <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
-    <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js"></script>
+    <script src="https://s3.amazonaws.com/novadge_bucket/js/jquery-1.10.1.js"></script>
+    <script src="https://s3.amazonaws.com/novadge_bucket/js/bootstrap.js"></script>
     <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700,800" 
           rel="stylesheet" type="text/css">
-    <style type="text/css">
-     
-/*Large desktop */
-@media(min-width:980px){
-body{
-padding-top:60px;
-}
-.linediv-l{
-border-left: 1px white solid;
-}
-.linediv-r{border-left:1px white solid;}
-}      
-
-/* landscape phones and down */
-@media(max-width:480px){
-.copy{padding: 2.5% 10%;}
-.linediv-l{border-bottom:1px white solid;}
-.linediv-r{border-top:1px white solid;}
-}
-
-/* All form factors */
-/*Main body and headings */
-
-body{font-family:'Open sans', Helvetica, Arial, sans-serif;}
-.heading, .subheading{
-font-family:'Ubuntu', Helvetica, Arial, sans-serif;
-text-align:center;
-}
-p.lead{
-padding-top:1.5%;
-font-size:24px;
-line-height:30px;
-}
-p{
-font-size:18px;
-line-height:24px;
-}
-
-/*Video pitch and Action */
-.pitch{padding:2.5% 0%;}
-.order{padding: 2% 0%;}
-.actions{
-    background-color:#343434;
-    padding:3% 0%;
-}
-
-.video, .thermometer, .order, .social, .statistics{
-    text-align: center;
-}
-
-.statistics h3, .statistics p{ color:white;}
-
-/*Marketing copy and footer */
-.copy{
-padding-top: 2.5%;
-padding-bottom:2.5%;
-text-align: justify;
-
-}
-.asset{padding:2.5% 0%;}
-
-.footer{
-color:#cccccc;
-text-align:center;
-}
-
-.footer p{font-size:11px;}
-
-.footer a{color:#ccccff;}
-</style>
+    <style>
+        body {
+            padding-top: 70px;
+        }
+        .starter-template {
+            padding: 40px 15px;
+            text-align: center;
+        }
+        .center{
+            text-align: center;
+        }
+        .navbar-brand img{
+            max-width: 190px;
+        }
+        .row{
+            margin: 10px auto 5px auto;
+        }
+       
+        @media screen and (max-width: 780px){
+            .col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12,.col-55{
+                width:100%;
+            }
+        }
+    </style>
 
   </head>
   <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
-	<div class="container">
-	  <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-	    <span class="icon-bar"></span>
-	    <span class="icon-bar"></span>
-	    <span class="icon-bar"></span>
-	  </button>
-	  <a class="brand" href="#">Customer Finder</a>
-	  <div class="nav-collapse collapse">
-	    <ul class="nav">
-	      <li class="active"><a href="#">Home</a></li>
-	      <li><a href="#about">About</a></li>
-	      <li><a href="#contact">Contact</a></li>
-	    </ul>
-	  </div> <!-- nav-collapse-->
-	 </div>
-	</div>
+     <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><img src="https://s3.amazonaws.com/novadge_bucket/images/careplus_logo.png" alt="CarePlus+"/></a>
+        <div class="nav-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
       </div>
+    </div>
 
-<!-- we use row-fluid inside a container to achieve a resizable layout. -->
+<!-- we use row inside a container to achieve a resizable layout. -->
 <!-- blogs.endjin.com/2013/04/tips-for-implementing-responsive-designs-using-bootstrap/ -->
 <!-- http://stackoverflow.com/a/12270322 -->
 
 <div class="container">
   <!-- font and paired font of .heading/ .subheading and body from Google fonts -->
-<div class="row-fluid heading">
-  <div class="span12">
-    <h1>Customer Finder</h1>
+<div class="">
+  <div class="heading center">
+    <h1>Improve Healthcare</h1>
   </div>
 </div>
-<div class="row-fluid subheading">
-  <div class="span12">
-    <p class="lead">Find people near you who need your services</p>
+<div class="row subheading">
+  <div class="col-12">
+    <p class="lead center">Lets make your practice more efficient and profitable</p>
   </div>
 </div>
 
-<div class="row-fluid pitch">
-  <div class="span5 offset1 video">
-    <img class="img-polaroid" src="http://placehold.it/480x300">
-    </div>
+<div class="row">
+  <div class="col-6 offset1 video">
+    <img class="img-thumbnail img-responsive" src="https://s3.amazonaws.com/novadge_bucket/images/tablet.png">
+  </div>
 
 <!-- We define a new 'actions' div to contain statistics, order, and share buttons -->
 
-<div class="span5 actions">
-  <div class="span8 offset2">
+<div class="col-6">
+  <div class="col-10 offset2">
     <div class="statistics">
-      <div class="span4">
-<!-- linediv-l and linediv-r give dividing lines that look different in horizontal and vertical layouts, illustrating media queries -->
-<div class="linediv-l">
-  <h3>1000</h3><p>Backers</p>
-</div>
+      <div class="col-4">
+        <!-- linediv-l and linediv-r give dividing lines that look different in horizontal and vertical layouts, illustrating media queries -->
+        <div class="linediv-l">
+        <h3>1000</h3><p>Backers</p>
+        </div>
       </div>
-        <div class="span4">
+        <div class="col-4">
             <div class="linediv-c">
                 <h3>$0</h3><p>Of $15,000</p>
             </div>
         </div>
-        <div class="span4">
+        <div class="col-4">
             <div class="linediv-r">
                 <h3>30</h3><p>days left</p>
             </div>
         </div>
     </div>
   </div>
-    <div class="span10 offset1">
+    <div class="col-10">
         <!--Bootstrap progress bar -->
         <!-- http://twitter.github.io/bootstrap/components.html#progress -->
-        <div class="thermometer progress active">
-            <div class="bar bar-success" style="width:60%;"></div>
-            <div class="bar bar-warning" style="width:40%;"></div>
+        <div class="progress">
+            <div class="progress-bar progress-bar-info" style="width: 20%"></div>
+            <div class="progress-bar progress-bar-warning" style="width: 80%"></div>
+
         </div>
     </div>
-    <div class="span6 offset3 order">
+    <div class="col-10 col-offset-2 order">
         <!-- standard bootstrap button -->
        <a class="coinbase-button" data-code="791c16ea1c3d1ad5cfcd4fbda9a646d7" data-button-style="custom_large" data-custom="CARE1" href="https://coinbase.com/checkouts/791c16ea1c3d1ad5cfcd4fbda9a646d7">Subscribe With Bitcoin</a><script src="https://coinbase.com/assets/button.js" type="text/javascript"></script>
-	</div>
-    <div class="span8 offset2 social">
+    </div>
+    <div class="col-10 col-offset-2 social">
         <!-- AddThis Button BEGIN -->
 	<div class="addthis_toolbox addthis_default_style addthis_32x32_style">
 	
@@ -192,36 +145,63 @@ text-align:center;
 </div>
 </div>
   
-  <!-- Beyond this part the marketting copy begins -->
-  <div class="row-fluid section1">
-      <div class="span5 offset1 asset">
+  <!-- Beyond this part the marketing copy begins -->
+  <div class="container">
+      
+      <div class="col-6">
+          <h2 class="center">
+              Work Smarter - Improve Outcomes
+          </h2>
+          <p class="lead center">
+            CarePlus+ makes complete health records readily available at the point of care enabling providers 
+            make informed decisions and deliver better health care services.
+          </p>
+             
+      </div>
+      <div class="col-6">
           <img class="img-polaroid" src="http://placehold.it/480x300"/>
           
-      </div>
-      <div class="span5 copy">
-          <p>
-             Sit back, search for customers, find, smile.
-	      
-          </p>
       </div>
   </div>
   
-  <div class="row-fluid section2">
+  <div class="container">
       
-      <div class="span5 offset1 copy copy-right">
-          <p>
-              Make more profit!
-          </p>
-      </div>
-      <div class="span5 asset">
+      <div class="col-6 asset">
           <img class="img-polaroid" src="http://placehold.it/480x300"/>
           
       </div>
+      <div class="col-6">
+          <h2 class="center">
+              Cut Cost - Make Profit
+          </h2>
+          <p class="lead center">
+             CarePlus+ can help  increase accuracy of billing and reduce lost charges 
+            by automating clinical documentation and orders. This helps reduce time and resources needed for manual charge entry.
+          </p>
+      </div>
+      
+  </div>
+   <div class="container">
+      
+      <div class="col-6">
+          <h2 class="center">
+              Increase Efficiency - Accomplish More
+          </h2>
+          <p class="lead center">
+             With CarePlus, electronically recording, modifying and retrieving a 
+            patients problem list for longitudinal care is only a few clicks away.
+          </p>
+      </div>
+       <div class="col-6 asset">
+          <img class="img-polaroid" src="http://placehold.it/480x300"/>
+          
+      </div>
+      
   </div>
   
   <!-- For the FAX, we introduce a little bit of JS....-->
-  <div class="row-fluid faq">
-          <div class="span10 offset1">
+  <div class="row faq">
+          <div class="col-10 offset1">
             <h3>FAQ</h3>
             <div class="accordion" id="accordion2">
               <div class="accordion-group">
@@ -256,8 +236,8 @@ text-align:center;
       </div>
   
   
-  <div class="row-fluid footer">
-      <div class="span12">
+  <div class="row footer">
+      <div class="col-12">
           <p>
               This work is licensed under the
               <a href="http://creative common".org></a>, without all the curf
